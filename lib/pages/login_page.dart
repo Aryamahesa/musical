@@ -36,11 +36,12 @@ class _LoginPageState extends State<LoginPage> {
 
       // Padding untuk body konten
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(25.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start, // mengatur posisi konten agar memulai dari kiri
+          crossAxisAlignment:
+              CrossAxisAlignment
+                  .start, // mengatur posisi konten agar memulai dari kiri
           children: [
-
             // judul email atau username
             Text(
               'Email or Username',
@@ -60,7 +61,6 @@ class _LoginPageState extends State<LoginPage> {
                 top: 5,
                 bottom: 5,
               ), // Padding di sekitar TextField
-
               // warna latar belakang textfield
               decoration: BoxDecoration(
                 color: const Color(0xFF323232),
@@ -114,7 +114,8 @@ class _LoginPageState extends State<LoginPage> {
                     style: const TextStyle(color: Colors.white, fontSize: 17),
                     decoration: InputDecoration(
                       hintStyle: const TextStyle(color: Colors.grey),
-                      border: InputBorder.none, // untuk menghilangkan border bawaan
+                      border:
+                          InputBorder.none, // untuk menghilangkan border bawaan
                       suffixIcon: IconButton(
                         icon: Icon(
                           value ? Icons.visibility_off : Icons.visibility,
@@ -146,7 +147,6 @@ class _LoginPageState extends State<LoginPage> {
           ],
         ),
       ),
-
     );
   }
 }
