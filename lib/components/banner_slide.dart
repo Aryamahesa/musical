@@ -38,14 +38,14 @@ class BannerSlide extends StatelessWidget {
 
         // onfigurasi untuk CarouselSlider
         options: CarouselOptions(
-          height: 250.0, // Tinggi slider
+          height: 200.0, // Tinggi slider
           enlargeCenterPage: true, // Memperbesar item yang berada di tengah
           autoPlay: true, // Mengaktifkan autoplay
           aspectRatio: 16 / 9, // Rasio aspek slider
           autoPlayCurve: Curves.fastOutSlowIn, // Kurva animasi autoplay
           enableInfiniteScroll: true, // Mengaktifkan scroll tak terbatas
           autoPlayAnimationDuration: const Duration(
-            milliseconds: 800,
+            milliseconds: 2000,
           ), // Durasi animasi autoplay
           viewportFraction: 0.8, // Proporsi tampilan item dalam viewport
         ),
